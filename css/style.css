@@ -1,0 +1,406 @@
+/* Fonts */
+/* Tapestry */
+@font-face {
+    font-family: 'Tapestry';
+    src: url('/assets/fonts/Tapestry/Tapestry-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Tapestry */
+@font-face {
+    font-family: 'Sansita Swashed';
+    src: url('/assets/fonts/Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* Basic CSS setup for Barber Shop */
+:root {
+    /* Color palette */
+    --background     : #5e3506;   /* Brown from mirror frame */
+    --rich-wood      : #4F322B;   /* Dark brown from the wood paneling */
+    --burgundy-red   : #551d1d;   /* Deep red from the barber chairs */
+    --cream-off-white: #E6E1D9;   /* Light neutral from the walls and lighter parts of the barber pole */
+    --metallic-silver: #A09E9B;   /* Silver/chrome accents on chairs and mirrors */
+    --gold-accent    : #B8860B;   /* Subtle gold/brass from light fixtures or framed art (optional, for highlights) */
+}
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up base font and background */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #7a7a7a;
+    color: var(--cream-off-white);
+}
+
+/* Container class for layout */
+.container {
+    /* margin: 0 auto; */
+}
+
+/* Header */
+header {
+    font-family: 'Sansita Swashed', sans-serif;
+    position: fixed;
+    width: 100%;
+    letter-spacing: 2px;
+    background: var(--background);
+    color: var(--cream-off-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    z-index: 1024;
+}
+
+header .nav-link {
+    margin: 0 32px;
+}
+
+
+header p {
+    position: absolute;
+    left: 85px;
+    top: 15px;
+    font-size: 30px;
+}
+
+/* logo */
+.logo img{
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    width: 65px;
+    height: 55px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+/* end of logo */
+
+/* navigation bar */
+nav a.nav-link {
+    color: var(--cream-off-white);
+    font-size: 25px;
+}
+
+nav a.nav-link:hover {
+    color: var(--gold-accent);
+    font-weight: bold;
+}
+
+.navbar-toggler span {
+    font-size: 24px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 32px;
+}
+/* End of the navigation bar */
+/* End of header */
+
+/* Hero */
+main {
+    background: url('/assets/img/hero.png') center  0px/ cover no-repeat;
+    font-family: 'Tapestry', sans-serif;
+    height: 700px;
+    z-index: 1;
+}
+
+.hero-blur {
+    height: 100%;      
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 2;
+}
+
+main h1 {
+    color: var(--metallic-silver);
+    font-weight: bold;
+    font-size: 120px;
+    padding-top: 175px;
+    margin: auto;
+    text-shadow: 2px 5px 2px black;
+}
+
+main h2 {
+    text-shadow: 2px 3px 2px black;
+    color: var(--metallic-silver);
+    font-size: 50px;
+    margin: -10px;
+    padding-left: 18%;
+    font-weight: bolder;
+}
+
+main h3 {
+    text-shadow: 2px 3px 2px black;
+    color: var(--metallic-silver);
+    padding: 10px 0px 0px 350px ;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.hero-button  {
+    margin: 20px;
+    background: var(--background);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    position:relative;
+    bottom: 40px;
+    right: 30px;
+    text-shadow: 2px 5px 2px black;
+    box-shadow: 2px 5px 2px black;
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: var(--cream-off-white);
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.hero-button a:hover {
+    font-size: 32px;
+}
+/* end of hero */
+
+/* About */
+#about {
+    background: linear-gradient(var(--background), var(--gold-accent));
+    font-family: 'Sansita Swashed', sans-serif;
+    color: var(--cream-off-white);
+    height: fit-content;
+}
+
+#about h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+#about h3 {
+    color: black;
+    text-shadow: 1px 2px 2px #2F2F2F;
+}
+
+
+.crew {
+    text-align: center;
+}
+
+#about img {
+    border-radius: 100px;
+    width: 50%;
+}
+
+#about p {
+    font-size: 20px;
+    max-width: 50%;
+    margin-left: 26%;
+    padding-bottom: 100px;
+}
+/* End of about */
+
+/* Services */
+#services  {
+    background: url('/assets/img/about.png') center  0px/ cover no-repeat;
+    font-family: 'Sansita Swashed', sans-serif;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+}
+
+#services h1 {
+    background: linear-gradient(var(--background), var(--rich-wood));
+    text-shadow: 3px 5px 3px #2F2F2F;
+    text-align: center;
+    font-size: 80px;
+    padding: 50px;
+} 
+
+#services h2 {
+    font-size: 40px;
+}
+
+#services h3 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.services-blur {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 60px;
+    gap: 60px;
+    height: 100%;      
+    width: 100%;
+    background-color: rgba(94, 53, 6, 0.2); 
+    z-index: 2;
+}
+
+.services-left, 
+.services-right {
+    height: 350px;
+    background-color: var(--gold-accent);
+    color: var(--cream-off-white);
+    border-radius: 40px;
+    flex: 1 1 33%;
+    z-index: 3;
+}
+
+.services-left h1, 
+.services-right h1 {
+    text-align: center;
+}
+
+
+.services-left h2, 
+.services-right h2 {
+    align-items: center;
+    text-align: center;
+}
+
+.services-left img, 
+.services-right img {
+    width: 95%;
+    height: 230px;
+    margin-left: 20px;
+    border-radius: 40px;
+    object-fit: cover;
+    z-index: 4;
+}
+/* End of Services */
+
+/* Contact  */
+
+
+#contact {
+    background: linear-gradient(var(--gold-accent), var(--rich-wood));
+    font-family: 'Sansita Swashed', sans-serif;
+    text-align: center;
+    height: fit-content;
+    z-index: 2;
+}
+
+.box {
+    background: url('/assets/img/shaving-soap-logo.png') left / 400px no-repeat;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+#contact h1 {
+    color: var(--burgundy-red);
+    text-shadow: 3px 4px 3px #2F2F2F;
+    letter-spacing: 2px;
+    font-size: 60px;
+    padding: 90px;
+}
+
+#contact p {
+    text-align: center;
+}
+
+.chair {
+    background: url('/assets/img/chair.png') right /400px no-repeat;
+}
+
+form {  
+    color: var(--burgundy-red);
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    gap: 16px;
+    padding-bottom: 150px;
+}
+
+input, textarea {
+    background-color: var(--background1);
+    color: var(--cream-off-white);
+    font-family: 'Gill Sans',  sans-serif;
+    width: 450px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#contact button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--burgundy-red);
+    color: var(--cream-off-white);
+    cursor: pointer;
+    font-weight: 500;
+    width: 200px;
+}
+
+#contact button:hover {
+    background-color: var(--gold-accent);
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.logo-img {
+    text-align: right;
+}
+
+/* Social Icons */
+.social-icons {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}
+/* End of contact */
+
+
+
+
+/* Footer styling */
+footer {
+    /* background: var(--background); */
+    background: linear-gradient(var(--background), var(--burgundy-red));
+    color: var(--cream-off-white);
+    text-align: center;
+    align-items: center;
+    padding: 16px;
+}
+
+@media (max-width: 768px) {
+    .about-blur {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-left,
+    .services-right {
+        width: 90%;
+    }
+}
