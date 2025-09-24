@@ -59,29 +59,33 @@ header {
     background: var(--background);
     color: var(--cream-off-white);
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 80px;
     z-index: 1024;
 }
 
 header .nav-link {
-    margin: 0 32px;
+    margin: 0 12px;
 }
 
-
 header p {
-    position: absolute;
-    left: 85px;
-    top: 15px;
+    display: flex;
     font-size: 30px;
 }
 
 /* logo */
+.logo {
+    display: flex;
+    margin-right: 50%;
+    gap: 0px;
+}
+
+.logo span{
+    color: var(--cream-off-white);
+    position: static;
+}
+
 .logo img{
-    position:absolute;
-    left: 10px;
-    top: 10px;
+    position: static;
     width: 65px;
     height: 55px;
 }
@@ -106,10 +110,10 @@ nav a.nav-link:hover {
     font-size: 24px;
 }
 
-.collapse-navbar {
-    position:absolute;
-    left: 100px;
-    top: 200px;
+nav button {
+    position: relative;
+    left: 270px;
+    bottom: 40px;
 }
 
 header h1 {
@@ -420,14 +424,16 @@ footer {
         width: 40px;
         height: 40px;
     }
-    nav ul {
-        font-size: 18px;
-        padding-top: 200px;
-    }
 
     nav a.nav-link {
-    font-size: 18px;
-    padding-bottom: 0;
+        color: var(--cream-off-white);
+        text-shadow: 1px 1px 1px black;
+        font-weight: bolder;
+        position: relative;
+        left: 260px;
+        bottom: 40px;
+        font-size: 18px;
+        padding-bottom: 0;
     }
 
     .hero h1{
@@ -459,10 +465,6 @@ footer {
         font-size: 25px ;
     }
 
-    #services h1 {
-        font-size: 45px;
-        letter-spacing: 2px;
-    }
     #about p {
         font-size: 18px;
         max-width: 80%;
@@ -470,9 +472,15 @@ footer {
         padding-bottom: 100px;
     }
 
-    .services-left,
+    #services h1 {
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+
+    .services-left, 
     .services-right {
-        width: 90%;
+        width: 500px;
+        height: 385px;
     }
 
     .services-left img, 
