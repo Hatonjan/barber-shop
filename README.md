@@ -2,18 +2,13 @@
 
 A warm, welcoming barber shop website designed to evoke, tradition, and premium service built with customize assets, responsive layout, and scroll-triggered animations.
 
----
 
 ### Live Demo
 [View the live site](https://shaving-soap.netlify.app/)
 
----
-
 ### Overview
 
 **Shaving Soap** is a fully responsive website created from scratch as part of my personal portfolio. It showcases my ability to design and develop a brand-aligned digital experience using custom assets, modular CSS, and thoughtful UI/UX decisions.
-
----
 
 ### Design Process
 
@@ -24,8 +19,6 @@ A warm, welcoming barber shop website designed to evoke, tradition, and premium 
 
 All content is original and created for the brand, inspired by research into barber shop websites but written uniquely for this project.
 
----
-
 ### Tech Stack
 
 - **HTML5 / CSS3**
@@ -33,7 +26,6 @@ All content is original and created for the brand, inspired by research into bar
 - **Bootstrap 5**: Responsive grid and layout utilities
 - **AOS (Animate On Scroll)**: Scroll-triggered animations
 
----
 
 ### Features
 
@@ -42,26 +34,19 @@ All content is original and created for the brand, inspired by research into bar
 - Custom branding and logo integration
 - Clean semantic HTML structure
 
----
-
 ### Development Notes
 
 - All code written by me, with AI used strictly for debugging and reference
 - CSS modularized by section for maintainability and scalability
 - Color palette derived from hero image to reinforce brand identity
 
----
-
 ###  Fonts
 
 All fonts used in this project were sourced from [Google Fonts](https://fonts.google.com) and are licensed for commercial use. Font README files are included in the project directory for reference.
 
----
 
 ### License & Credits
 
 © 2025 Jonathan Scott. All rights reserved.
 
 Fonts, icons, and libraries used are open-source or properly licensed. AI-generated assets were created using tools that allow commercial use.
-
----
