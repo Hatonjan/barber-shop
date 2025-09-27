@@ -26,12 +26,6 @@ All content is original and created for the brand, inspired by research into bar
 
 ---
 
-### Color Palette
-
-The visual environment was crafted using tones sampled directly from the hero image to create a cohesive, inviting atmosphere:
-
----
-
 ### Tech Stack
 
 - **HTML5 / CSS3**
@@ -55,6 +49,12 @@ The visual environment was crafted using tones sampled directly from the hero im
 - All code written by me, with AI used strictly for debugging and reference
 - CSS modularized by section for maintainability and scalability
 - Color palette derived from hero image to reinforce brand identity
+
+---
+
+###  Fonts
+
+All fonts used in this project were sourced from [Google Fonts](https://fonts.google.com) and are licensed for commercial use. Font README files are included in the project directory for reference.
 
 ---
 
