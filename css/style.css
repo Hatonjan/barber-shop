@@ -139,6 +139,7 @@ header h1 {
 }
 
 .hero h1 {
+    letter-spacing: 3px;
     font-weight: bold;
     font-size: 120px;
     padding-top: 175px;
@@ -147,6 +148,7 @@ header h1 {
 
 .hero h2 {
     text-shadow: 2px 3px 2px black;
+    letter-spacing: 3px;
     font-size: 50px;
     margin: -10px;
     padding-left: 18%;
@@ -155,34 +157,32 @@ header h1 {
 
 .hero h3 {
     text-shadow: 2px 3px 2px black;
+    letter-spacing: 2px;
     padding: 10px 0px 0px 350px ;
     letter-spacing: 2px;
     font-weight: bolder;
 }
 
 .hero-button  {
-    margin: 20px;
     background: var(--burgundy-red);
-    padding: 5px 20px;
-    border-radius: 20px;
-    border-color: transparent;
-    position: relative;
-    top: 160px;
-    left: 80%;
+    color: var(--cream-off-white);
     text-shadow: 2px 5px 2px black;
     box-shadow: 2px 5px 2px black;
-}
-
-.hero-button a {
-    padding: 8px 3px;
-    text-decoration: none;
-    color: var(--cream-off-white);
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 2px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 160px;
+    left: 80%;
+    
 }
 
-.hero-button a:hover {
+.hero-button:hover {
+    color: var(--cream-off-white);
     text-shadow:none;
     font-size: 32px;
 }
