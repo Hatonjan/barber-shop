@@ -48,145 +48,146 @@
             </nav>
         </header>
 
-        <main id="home" class="hero">
-            <div class="hero-blur">
+        <main>
+            <section id="home" class="hero" aria-labelledby="hero-heading">
+                <div class="hero-blur">
+                    <div class="container">
+                        <h1>Shaving Soap</h1>
+                        <h2>Professional Haircut</h2>
+                        <h3>Delivering Excellence for Over 15 Years</h3>
+                        <a href="#contact" class="hero-button" role="button">Book a seat</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" aria-labelledby="about-heading">
+                <h1>Get to know our crew</h1>
+                <h2>Highly skilled professionals committed to your best look</h2>
                 <div class="container">
-                    <h1>Shaving Soap</h1>
-                    <h2>Professional Haircut</h2>
-                    <h3>Delivering Excellence for Over 15 Years</h3>
-                    <a href="#contact" class="hero-button">Book a seat</a>
+                    <div class="row">
+
+                        
+                        <div class="crew">
+                            <div data-aos="flip-up"
+                                data-aos-delay="200"
+                                data-aos-duration="1500">
+                                <h3>Malik “The Vibe” Johnson</h3>
+                                <img src="/assets/img/Malik.png" alt="A barber performing a haircut">
+                                <h4>Fade Master & Culture Curator</h4>
+                                <p>Malik’s chair is where style meets storytelling. He’s got a sixth sense 
+                                    for blending classic cuts with modern edge—whether it’s a skin fade, 
+                                    twist-up, or a clean taper. Clients come for the cut, but stay for the 
+                                    energy. When he’s not shaping hair, he’s spinning neo-soul playlists and 
+                                    mentoring local youth through style workshops.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="crew">
+                            <div data-aos="flip-up"
+                                data-aos-delay="200"
+                                data-aos-duration="1500">
+                                <h3> Ethan “The Architect” Reynolds</h3>
+                                <img src="/assets/img/Ethan.png" alt="A barber performing a haircut">
+                                <h4>Senior Stylist & Precision Specialist</h4>
+                                <p>With over 12 years in the game, Ethan brings a calm, methodical energy to the shop. 
+                                    Known for his razor-sharp fades and geometric beard work, he’s the guy clients trust 
+                                    when they want something bold but balanced. Outside the shop, Ethan’s a vinyl collector 
+                                    and mid-century design nerd—he sees every haircut as a blueprint for confidence.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="crew">
+                            <div data-aos="flip-up"
+                                data-aos-delay="200"
+                                data-aos-duration="1500">
+                                <h3>Diego “The Detail” Morales</h3>
+                                <img src="/assets/img/Diego.png" alt="A barber performing a haircut">
+                                <h4>Texture Expert & Creative Lead</h4>
+                                <p>Diego’s artistry lives in the details—from crisp line-ups to layered curls 
+                                    that move with intention. He’s fluent in texture, and his cuts reflect a 
+                                    deep respect for individuality. Raised in a family of barbers, Diego blends 
+                                    tradition with innovation. He’s also the shop’s unofficial photographer, 
+                                    capturing fresh cuts and candid moments for the crew’s socials</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
+
+            <section id="services" aria-labelledby="services-heading">
+                <h1> List of Prices</h1>
+                <div class="services-blur">
+                    <div class="services-right" 
+                        data-aos="fade-right" 
+                        data-aos-delay="200"
+                        data-aos-duration="1000">
+                        <h2>Haircut Adults</h2>
+                        <h3> $19.99</h3>
+                        <img src="/assets/img/adult-haricut.png" alt="A barber performing a haircut">  
+                    </div>
+                    <div class="services-right" 
+                        data-aos="fade-left" 
+                        data-aos-delay="200"
+                        data-aos-duration="1000">
+                        <h2>Haircut Kids</h2>
+                        <h2> $14.99</h2>
+                        <img src="/assets/img/kid-haircut2.png" alt="A barber performing a haircut">  
+                    </div>
+                    <div class="services-left" 
+                        data-aos="fade-right"
+                        data-aos-delay="200"
+                        data-aos-duration="1000">
+                        <h2>Shaves</h2>
+                        <h3> $16.99</h3>
+                        <img src="/assets/img/shaving.png" alt="A barber performing a haircut">  
+                    </div>
+                    <div class="services-left" 
+                        data-aos="fade-left"
+                        data-aos-delay="200"
+                        data-aos-duration="1000">
+                        <h2>Hot-towel Shave</h2>
+                        <h3> $24.99</h3>
+                        <img src="/assets/img/hot-towel.png" alt="A barber performing a haircut">  
+                    </div>
+                </div>                     
+            </section>
+
+            <section id="contact" aria-labelledby="contact-heading">
+                <div data-aos="zoom-in"
+                    data-aos-delay="400"
+                    data-aos-duration="1500">
+                    <div class="box">
+                        <div class="chair">
+                            <h1>Book A Sit</h1>
+                            <form name="contact" netlify method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact">
+                                <p>
+                                    <label>Name:<br> <input type="text" name="name"></label>
+                                </p>
+                                <p>
+                                    <label>Email:<br> <input type="email" name="email"></label>
+                                </p>
+                                <p>
+                                    <label>Message:<br> <textarea name="message"></textarea></label>
+                                </p>
+                                <p>
+                                    <button type="submit">Send</button>
+                                </p>
+                            </form>
+
+                            <div class="social-icons">
+                                <a href="https://facebook.com"  target="blank" aria-label="Facebook">  <img  src="./assets/Icons/facebook.png"  alt="facebook"></a>
+                                <a href="https://instagram.com" target="blank" aria-label="Instagram"> <img  src="./assets/Icons/Instagram.png" alt="Instagram"></a>
+                                <a href="https://tiktok.com"    target="blank" aria-label="TikTok">    <img  src="./assets/Icons/tik-tok.png"   alt="Tiktok"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-
-        <section id="about">
-            <h1>Get to know our crew</h1>
-            <h2>Highly skilled professionals committed to your best look</h2>
-            <div class="container">
-                <div class="row">
-
-                    
-                    <div class="crew">
-                        <div data-aos="flip-up"
-                            data-aos-delay="200"
-                            data-aos-duration="1500">
-                            <h3>Malik “The Vibe” Johnson</h3>
-                            <img src="/assets/img/Malik.png" alt="A barber performing a haircut">
-                            <h4>Fade Master & Culture Curator</h4>
-                            <p>Malik’s chair is where style meets storytelling. He’s got a sixth sense 
-                                for blending classic cuts with modern edge—whether it’s a skin fade, 
-                                twist-up, or a clean taper. Clients come for the cut, but stay for the 
-                                energy. When he’s not shaping hair, he’s spinning neo-soul playlists and 
-                                mentoring local youth through style workshops.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="crew">
-                        <div data-aos="flip-up"
-                            data-aos-delay="400"
-                            data-aos-duration="1500">
-                            <h3> Ethan “The Architect” Reynolds</h3>
-                            <img src="/assets/img/Ethan.png" alt="A barber performing a haircut">
-                            <h4>Senior Stylist & Precision Specialist</h4>
-                            <p>With over 12 years in the game, Ethan brings a calm, methodical energy to the shop. 
-                                Known for his razor-sharp fades and geometric beard work, he’s the guy clients trust 
-                                when they want something bold but balanced. Outside the shop, Ethan’s a vinyl collector 
-                                and mid-century design nerd—he sees every haircut as a blueprint for confidence.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="crew">
-                        <div data-aos="flip-up"
-                            data-aos-delay="400"
-                            data-aos-duration="1500">
-                            <h3>Diego “The Detail” Morales</h3>
-                            <img src="/assets/img/Diego.png" alt="A barber performing a haircut">
-                            <h4>Texture Expert & Creative Lead</h4>
-                            <p>Diego’s artistry lives in the details—from crisp line-ups to layered curls 
-                                that move with intention. He’s fluent in texture, and his cuts reflect a 
-                                deep respect for individuality. Raised in a family of barbers, Diego blends 
-                                tradition with innovation. He’s also the shop’s unofficial photographer, 
-                                capturing fresh cuts and candid moments for the crew’s socials</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="services">
-            <h1> List of Prices</h1>
-            <div class="services-blur">
-                <div class="services-right" 
-                    data-aos="fade-right" 
-                    data-aos-delay="200"
-                    data-aos-duration="1000">
-                    <h2>Haircut Adults</h2>
-                    <h3> $19.99</h3>
-                    <img src="/assets/img/adult-haricut.png" alt="A barber performing a haircut">  
-                </div>
-                <div class="services-right" 
-                    data-aos="fade-left" 
-                    data-aos-delay="200"
-                    data-aos-duration="1000">
-                    <h2>Haircut Kids</h2>
-                    <h2> $14.99</h2>
-                    <img src="/assets/img/kid-haircut2.png" alt="A barber performing a haircut">  
-                </div>
-                <div class="services-left" 
-                    data-aos="fade-right"
-                    data-aos-delay="200"
-                    data-aos-duration="1000">
-                    <h2>Shaves</h2>
-                    <h3> $16.99</h3>
-                    <img src="/assets/img/shaving.png" alt="A barber performing a haircut">  
-                </div>
-                <div class="services-left" 
-                    data-aos="fade-left"
-                    data-aos-delay="200"
-                    data-aos-duration="1000">
-                    <h2>Hot-towel Shave</h2>
-                    <h3> $24.99</h3>
-                    <img src="/assets/img/hot-towel.png" alt="A barber performing a haircut">  
-                </div>
-            </div>                     
-        </section>
-
-        <section id="contact">
-            <div data-aos="zoom-in"
-                data-aos-delay="400"
-                data-aos-duration="1500">
-                <div class="box">
-                    <div class="chair">
-                        <h1>Book A Sit</h1>
-                        <form name="contact" netlify method="POST" data-netlify="true">
-                        <input type="hidden" name="form-name" value="contact">
-                            <p>
-                                <label>Name:<br> <input type="text" name="name"></label>
-                            </p>
-                            <p>
-                                <label>Email:<br> <input type="email" name="email"></label>
-                            </p>
-                            <p>
-                                <label>Message:<br> <textarea name="message"></textarea></label>
-                            </p>
-                            <p>
-                                <button type="submit">Send</button>
-                            </p>
-                        </form>
-
-                        <div class="social-icons">
-                            <a href="https://facebook.com"  target="blank" aria-label="Facebook">  <img  src="./assets/Icons/facebook.png"  alt="facebook"></a>
-                            <a href="https://instagram.com" target="blank" aria-label="Instagram"> <img  src="./assets/Icons/Instagram.png" alt="Instagram"></a>
-                            <a href="https://tiktok.com"    target="blank" aria-label="TikTok">    <img  src="./assets/Icons/tik-tok.png"   alt="Tiktok"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <footer>
             <p>&copy; 2025 Jonathan Scott. All rights reserved.</p>
         </footer>
