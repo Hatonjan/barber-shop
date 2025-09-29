@@ -127,7 +127,7 @@ header h1 {
     background: url('/assets/img/hero2.png') center  0px/ cover no-repeat;
     font-family: 'Tapestry', sans-serif;
     color: var(--cream-off-white);
-    height: 700px;
+    height: 95vh;
     z-index: 1;
 }
 
