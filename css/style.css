@@ -16,6 +16,15 @@
     font-style: normal;
     font-display: swap;
 }
+
+/* Tapestry */
+@font-face {
+    font-family: 'Spicy Rice';
+    src: url('/assets/fonts/Spicy_Rice/SpicyRice-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 /* Basic CSS setup for Barber Shop */
 :root {
     /* Color palette */
@@ -125,7 +134,7 @@ header h1 {
 /* Hero */
 .hero{
     background: url('/assets/img/hero2.png') center  0px/ cover no-repeat;
-    font-family: 'Tapestry', sans-serif;
+    font-family: 'Spicy Rice', sans-serif;
     color: var(--cream-off-white);
     height: 95vh;
     z-index: 1;
@@ -140,7 +149,6 @@ header h1 {
 
 .hero h1 {
     letter-spacing: 3px;
-    font-weight: bold;
     font-size: 120px;
     padding-top: 175px;
     text-shadow: 3px 6px 3px black;
@@ -152,7 +160,6 @@ header h1 {
     font-size: 50px;
     margin: -10px;
     padding-left: 18%;
-    font-weight: bolder;
 }
 
 .hero h3 {
@@ -160,7 +167,6 @@ header h1 {
     letter-spacing: 2px;
     padding: 10px 0px 0px 350px ;
     letter-spacing: 2px;
-    font-weight: bolder;
 }
 
 .hero-button  {
